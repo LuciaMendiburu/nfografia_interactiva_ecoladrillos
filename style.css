@@ -199,6 +199,46 @@ margin-left: 8%;
 }
 
 
+.btn_bloque1{
+position: absolute;
+top: 600px;
+left: 280px;
+
+}
+
+.btn_bloque1:hover{
+
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
+.btn_bloque2{
+  position: absolute;
+  top: 350px;
+  left: 250px;
+  cursor: not-allowed;
+
+  }
+
+  .btn_bloque3{
+    position: absolute;
+    top: 520px;
+    left: 840px;
+    cursor: not-allowed;
+  
+    }
+
+    .btn_bloque4{
+      position: absolute;
+      top: 170px;
+      left: 960px;
+      cursor: not-allowed;
+    
+      }
+  
+
+
+
 
 
 
