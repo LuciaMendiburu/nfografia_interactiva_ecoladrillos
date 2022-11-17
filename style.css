@@ -15,7 +15,7 @@
   background-image: url("./img/Inicio.png");
   background-repeat: no-repeat;
   background-size: cover;
-  margin-top: 15%;
+  margin-top: 20%;
 
 }
 
@@ -101,7 +101,7 @@ align-self: center;
 
 
 
-
+/*--parte 2--*/
 
 
 
@@ -117,7 +117,7 @@ align-self: center;
 z-index: 50;
 position: absolute;
 height: 98vh;
-margin-left: 13%;
+margin-left: 8%;
 }
 
 
@@ -129,8 +129,8 @@ margin-left: 13%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  left: 400px;
-  top:150px;
+  left: 410px;
+  top:200px;
 
 }
 
@@ -161,16 +161,6 @@ margin-left: 13%;
   
   }
   
-
-
-
-
-
-
-
-
-
-
 .intro_2 div h2{
 
   font-family: 'Poppins';
@@ -203,7 +193,7 @@ margin-left: 13%;
 .mapa{
   width: 99vw;
   height: auto;
-  background-image: url("./img/chayanne.png");
+  background-image: url("./img/Mapa.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
