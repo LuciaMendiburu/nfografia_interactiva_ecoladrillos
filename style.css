@@ -1,6 +1,71 @@
 
+/*===========fondos====================*/
 
-body{
+
+
+/*-----------------------INTRO------------------------------*/
+
+.intro{
+
+  width: 99vw;
+  height: auto;
+  background-image: url("./img/Inicio.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.intro section{
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  width: 100%;
+  height: auto;
+  
+  justify-content: center;
+  align-items: center;
+
+ 
+ 
+  
+}
+
+
+.intro section div{
+  margin-left: 5%;
+  width: 20%;
+}
+
+
+.intro_2{
+  width: 99vw;
+  height: auto;
+  background-image: url("./img/Inicio_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro_2 img{
+z-index: -500;
+}
+ /*-----------------------MAPA------------------------------*/
+
+
+.mapa{
+  width: 99vw;
+  height: auto;
+  background-image: url("./img/chayanne.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+
+
+/*-----------------------BLOQUE 1------------------------------*/
+
+.bloque_1{
 
   width: 99vw;
   height: auto;
@@ -8,6 +73,7 @@ body{
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 
 .mancha{
   position: sticky;
