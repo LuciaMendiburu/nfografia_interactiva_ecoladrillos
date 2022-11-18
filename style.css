@@ -341,6 +341,71 @@ margin-left: 8%;
     }
 
 
+
+         
+/*Mapa bloque 4 ------------------------------*/
+
+.btn_bloque1__m4:hover{
+
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
+.btn_bloque1__m4{
+  position: absolute;
+  top: 600px;
+  left: 280px;
+  
+  }
+
+.btn_bloque2__m4:hover{
+
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
+.btn_bloque2__m4{
+  position: absolute;
+  top: 350px;
+  left: 250px;
+  
+
+  }
+
+  .btn_bloque3__m4{
+    position: absolute;
+    top: 520px;
+    left: 840px;
+    
+  
+    }
+
+
+    .btn_bloque3__m4:hover{
+
+      filter: brightness(1.5);
+      cursor: pointer;
+    }
+
+
+    .btn_bloque4__m4{
+      position: absolute;
+      top: 170px;
+      left: 960px;
+     
+    
+    }
+
+
+    .btn_bloque4__m4:hover{
+
+      filter: brightness(1.5);
+      cursor: pointer;
+    }
+
+
+
+
 /*-----------------------BLOQUE 1------------------------------*/
 
 
@@ -535,6 +600,37 @@ cursor: grab;
 cursor: grab;
   
 }
+
+
+/*drag n drop tacho negro-------------------*/
+.holder_5{
+  position: absolute;
+ /*esto influye en el tamaño de la imagen del contenedor*/
+  width: 15%;
+  margin: 10px;
+
+  /*cuando modifico este top y left, tambien se modifica el de la esponja, ¿por que?*/
+  left: 950px;
+  top: 550px;
+  /*border: solid 5px black;
+  background-color: white;*/
+  display: inline-block;
+}
+
+.box_5{
+  height: auto;
+  width: 20%;
+  /*background-color: black;*/
+  position: relative;
+
+  /*este top y este left, esta tomando de referencia la posicion de su contenedor, hay algo que esta heredando y no se que es*/
+  left: 100px;
+  top: 70px;
+
+cursor: grab;
+  
+}
+
 
 
 

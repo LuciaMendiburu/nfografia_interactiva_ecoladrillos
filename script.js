@@ -227,6 +227,62 @@ class App_4 {
 
 }
 
+/*------------Basura NO reciclable--------------------- */
+
+class App_5 {
+
+  static init() {
+
+    App_5.box_5 = document.getElementsByClassName('box_5')[0]
+
+    App_5.box_5.addEventListener("dragstart", App_5.dragstart)
+    App_5.box_5.addEventListener("dragend", App_5.dragend)
+
+    const containers = document.getElementsByClassName('holder_5')
+
+    for(const container of containers) {
+      container.addEventListener("dragover", App_5.dragover)
+      container.addEventListener("dragenter", App_5.dragenter)
+      container.addEventListener("dragleave", App_5.dragleave)
+      container.addEventListener("drop", App_5.drop)
+    }
+  } 
+ 
+  static dragstart() {
+    this.className += " held"
+  
+    setTimeout(()=>this.className="invisible", 0)
+  }
+
+  static dragend() {
+    this.className = "box_5"
+   
+  }
+
+  static dragover(e) {
+    e.preventDefault()
+  }
+
+  static dragenter(e) {
+    e.preventDefault()
+    this.className += " hovered"
+  }
+
+  static dragleave() {
+    this.className = "holder_5"
+    
+  }
+
+  static drop() {
+    this.className = "holder_5"
+
+    /* esto es lo que hace desaparecer a la mancha despues del drop */
+    
+    this.append(App_5.box_5)
+  }
+
+}
+
 
 
 
@@ -245,3 +301,4 @@ document.addEventListener("DOMContentLoaded", App.init)
 document.addEventListener("DOMContentLoaded", App_2.init)
 document.addEventListener("DOMContentLoaded", App_3.init)
 document.addEventListener("DOMContentLoaded", App_4.init)
+document.addEventListener("DOMContentLoaded", App_5.init)
