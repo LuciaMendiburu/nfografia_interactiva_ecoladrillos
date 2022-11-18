@@ -1,0 +1,35 @@
+[33mcommit 6620cba95cabc246070e21e2992c6f97496039c7[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: LuciaMendiburu <lucia.m.mendiburu@gmail.com>
+Date:   Thu Nov 17 15:50:34 2022 -0300
+
+    Se agrega mapa con fondo provisorio. Funcionamiento de botones de los bloques con comportamientos en hover en colores y mouse.
+
+[33mcommit f3357d8c3c60ac43b5e2a54ff0dfcd920d31876d[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: LuciaMendiburu <lucia.m.mendiburu@gmail.com>
+Date:   Thu Nov 17 15:18:24 2022 -0300
+
+    Se arreglan elementos para pantalla completa
+
+[33mcommit 43f64752de16e0cfa34ded573b1e6618d3a97801[m
+Author: LuciaMendiburu <lucia.m.mendiburu@gmail.com>
+Date:   Thu Nov 17 14:47:58 2022 -0300
+
+    Se solucionan problemas de la intro parte 1 y 2
+
+[33mcommit 3fd1965eb97eee912b156860c180ff05091ff49d[m
+Author: LuciaMendiburu <lucia.m.mendiburu@gmail.com>
+Date:   Thu Nov 17 02:18:42 2022 -0300
+
+    Se agrega la segunda parte de la introduccion. Parte 1, no pude centrar en y el contenedor. Parte 2, no pude modificar el z index del planeta para poner en el fondo. Faltan los estilos de textos. Html del mapa linkeado pero vacio.
+
+[33mcommit 1564ce293f7329885441d83cd74f653e2c22e06e[m
+Author: LuciaMendiburu <lucia.m.mendiburu@gmail.com>
+Date:   Wed Nov 16 19:17:15 2022 -0300
+
+    infografia con comportamiento drag n drop. Fondo y lugar viejo. Unicamente bloque uno. Cambiar nombre de index a bloque 1 para que inicie en la introduccion
+
+[33mcommit eb35f89938147056f0a639df7cca2e959e718fb9[m
+Author: LuciaMendiburu <lucia.m.mendiburu@gmail.com>
+Date:   Wed Nov 16 19:14:40 2022 -0300
+
+    first commit

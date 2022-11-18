@@ -199,20 +199,23 @@ margin-left: 8%;
 }
 
 
-.btn_bloque1{
-position: absolute;
-top: 600px;
-left: 280px;
 
-}
 
-.btn_bloque1:hover{
+/*Mapa bloque 1------------------------------*/
+
+.btn_bloque1__m1{
+  position: absolute;
+  top: 600px;
+  left: 280px;
+  
+  }
+.btn_bloque1__m1:hover{
 
   filter: brightness(1.5);
   cursor: pointer;
 }
 
-.btn_bloque2{
+.btn_bloque2__m1{
   position: absolute;
   top: 350px;
   left: 250px;
@@ -220,7 +223,7 @@ left: 280px;
 
   }
 
-  .btn_bloque3{
+  .btn_bloque3__m1{
     position: absolute;
     top: 520px;
     left: 840px;
@@ -228,29 +231,143 @@ left: 280px;
   
     }
 
-    .btn_bloque4{
+
+    .btn_bloque4__m1{
       position: absolute;
       top: 170px;
       left: 960px;
       cursor: not-allowed;
     
-      }
+    }
+  
+/*Mapa bloque 2------------------------------*/
+
+.btn_bloque1__m2:hover{
+
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
+.btn_bloque1__m2{
+  position: absolute;
+  top: 600px;
+  left: 280px;
+  
+  }
+
+.btn_bloque2__m2:hover{
+
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
+.btn_bloque2__m2{
+  position: absolute;
+  top: 350px;
+  left: 250px;
   
 
+  }
+
+  .btn_bloque3__m2{
+    position: absolute;
+    top: 520px;
+    left: 840px;
+    cursor: not-allowed;
+  
+    }
 
 
+    .btn_bloque4__m2{
+      position: absolute;
+      top: 170px;
+      left: 960px;
+      cursor: not-allowed;
+    
+    }
 
+      
+/*Mapa bloque 3 ------------------------------*/
+
+.btn_bloque1__m3:hover{
+
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
+.btn_bloque1__m3{
+  position: absolute;
+  top: 600px;
+  left: 280px;
+  
+  }
+
+.btn_bloque2__m3:hover{
+
+  filter: brightness(1.5);
+  cursor: pointer;
+}
+
+.btn_bloque2__m3{
+  position: absolute;
+  top: 350px;
+  left: 250px;
+  
+
+  }
+
+  .btn_bloque3__m3{
+    position: absolute;
+    top: 520px;
+    left: 840px;
+    
+  
+    }
+
+
+    .btn_bloque3__m3:hover{
+
+      filter: brightness(1.5);
+      cursor: pointer;
+    }
+
+
+    .btn_bloque4__m3{
+      position: absolute;
+      top: 170px;
+      left: 960px;
+      cursor: not-allowed;
+    
+    }
 
 
 /*-----------------------BLOQUE 1------------------------------*/
+
+
+
+
 
 .bloque_1{
 
   width: 99vw;
   height: auto;
-  background-image: url("./img/nucleo1_fondo1.svg");
+  background-image: url("./img/problemática del plástico_codigo fondo.png");
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+
+
+.volver_mapa{
+  margin-left: 2%;
+  margin-top: 1%;
+}
+
+
+.volver_mapa:hover{
+ filter: brightness(1.1);
+ cursor: pointer;
+
 }
 
 
@@ -271,6 +388,157 @@ left: 280px;
   top: 450px;
 cursor: grab;
 }
+
+
+/*drag n drop ----------------------------*/
+
+.holder_1{
+  position: absolute;
+ /*esto influye en el tamaño de la imagen del contenedor*/
+  width: 20%;
+  margin: 10px;
+
+  /*cuando modifico este top y left, tambien se modifica el de la esponja, ¿por que?*/
+  left: 720px;
+  top: -30px;
+  /*border: solid 5px black;
+  background-color: white;*/
+  display: inline-block;
+}
+
+.box_1 {
+  height: 100px;
+  width: 100px;
+  /*background-color: black;*/
+  position: relative;
+
+  /*este top y este left, esta tomando de referencia la posicion de su contenedor, hay algo que esta heredando y no se que es*/
+  left: 300px;
+  top: 100px;
+
+cursor: grab;
+  
+}
+
+
+
+/*-----------------------BLOQUE 2------------------------------*/
+
+.bloque_2{
+
+  width: 99vw;
+  height: auto;
+  background-image: url("./img/bloque2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/*drag n drop izquierda-------------------*/
+.holder_2{
+  position: absolute;
+ /*esto influye en el tamaño de la imagen del contenedor*/
+  width: 15%;
+  margin: 10px;
+
+  /*cuando modifico este top y left, tambien se modifica el de la esponja, ¿por que?*/
+  left: 60px;
+  top: 300px;
+  /*border: solid 5px black;
+  background-color: white;*/
+  display: inline-block;
+}
+
+.box_2{
+  height: 100px;
+  width: 100px;
+  /*background-color: black;*/
+  position: relative;
+
+  /*este top y este left, esta tomando de referencia la posicion de su contenedor, hay algo que esta heredando y no se que es*/
+  left: 220px;
+  top: -430px;
+
+cursor: grab;
+  
+}
+
+
+/*drag n drop derecha-------------------*/
+.holder_3{
+  position: absolute;
+ /*esto influye en el tamaño de la imagen del contenedor*/
+  width: 10%;
+  margin: 10px;
+
+  /*cuando modifico este top y left, tambien se modifica el de la esponja, ¿por que?*/
+  left: 1100px;
+  top: 315px;
+  /*border: solid 5px black;
+  background-color: white;*/
+  display: inline-block;
+}
+
+.box_3{
+  height: 100px;
+  width: 100px;
+  /*background-color: black;*/
+  position: relative;
+
+  /*este top y este left, esta tomando de referencia la posicion de su contenedor, hay algo que esta heredando y no se que es*/
+  left: -50px;
+  top: -350px;
+
+cursor: grab;
+  
+}
+
+/*-----------------------BLOQUE 3------------------------------*/
+
+.bloque_3{
+
+  width: 99vw;
+  height: auto;
+  background-image: url("./img/Puntos verdes 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+
+/*drag n drop tacho verde-------------------*/
+.holder_4{
+  position: absolute;
+ /*esto influye en el tamaño de la imagen del contenedor*/
+  width: 15%;
+  margin: 10px;
+
+  /*cuando modifico este top y left, tambien se modifica el de la esponja, ¿por que?*/
+  left: 850px;
+  top: 500px;
+  /*border: solid 5px black;
+  background-color: white;*/
+  display: inline-block;
+}
+
+.box_4{
+  height: auto;
+  width: 20%;
+  /*background-color: black;*/
+  position: relative;
+
+  /*este top y este left, esta tomando de referencia la posicion de su contenedor, hay algo que esta heredando y no se que es*/
+  left: -50px;
+  top: 0px;
+
+cursor: grab;
+  
+}
+
+
+
+
 
 
 /*=================ANIMACION CIRCULO=========================*/
@@ -309,19 +577,6 @@ cursor: grab;
 
 /*=================DRAG N DROP=========================*/
 
-.box {
-  height: 100px;
-  width: 100px;
-  /*background-color: black;*/
-  position: relative;
-
-  /*este top y este left, esta tomando de referencia la posicion de su contenedor, hay algo que esta heredando y no se que es*/
-  left: 550px;
-  top: 80px;
-
-cursor: grab;
-  
-}
 
 .held {
  /* border: solid 10px black;
@@ -329,19 +584,6 @@ cursor: grab;
   
 }
  
-.holder {
-  position: absolute;
- /*esto influye en el tamaño de la imagen del contenedor*/
-  width: 15%;
-  margin: 10px;
-
-  /*cuando modifico este top y left, tambien se modifica el de la esponja, ¿por que?*/
-  left: 870px;
-  top: 0px;
-  /*border: solid 5px black;
-  background-color: white;*/
-  display: inline-block;
-}
 
 .hovered {
  filter: opacity(0.50);
@@ -351,9 +593,21 @@ cursor: grab;
   display: none;
 }
 
-
-
 #container {
  
   
 }
+
+#container_2{
+ 
+  
+}
+
+
+
+
+
+
+
+
+
