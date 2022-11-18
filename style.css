@@ -100,6 +100,13 @@ align-self: center;
 }
 
 
+.intro section button:hover{
+  filter: brightness(1.2);
+
+}
+
+
+
 
 /*--parte 2--*/
 
@@ -160,6 +167,12 @@ margin-left: 8%;
   align-self: center;
   
   }
+
+  .intro_2 div  button:hover{
+    filter: brightness(1.2);
+  
+  }
+  
   
 .intro_2 div h2{
 
@@ -630,6 +643,112 @@ cursor: grab;
 cursor: grab;
   
 }
+
+
+/*-----------------------BLOQUE 4------------------------------*/
+
+.bloque_4{
+
+  width: 99vw;
+  height: auto;
+  background-image: url("./img/Ecoladrillo - 1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/*-----------------------FIN------------------------------*/
+
+
+.fin{
+
+  width: 99vw;
+  height: auto;
+  background-image: url("./img/fin.png") ;
+  background-repeat: no-repeat ;
+ 
+  background-size: cover;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.fin img{
+  margin-top: 28%;
+  position: absolute;
+  width: 40%;
+  height: auto;
+}
+
+.fin div{
+  position: absolute;
+  width: 30%;
+  text-align: center;
+  margin-top: 53%;
+}
+
+
+.fin div h2{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 40px;
+  margin-bottom: 0px;
+  /* identical to box height */
+  
+  text-align: center;
+  
+  color: #FFFFFF;
+  
+}
+
+.fin div h4{
+  font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 30px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.fin div button{
+
+border-style: none;
+cursor: pointer;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 15px;
+line-height: 30px;
+/* identical to box height */
+
+text-align: center;
+color: #FFFFFF;
+
+/* Violeta */
+
+background: #F36B57;
+
+padding: 2%;
+padding-left: 15%;
+padding-right: 15%;
+
+
+align-self: center;
+
+}
+
+.fin div button:hover{
+  filter: brightness(1.2);
+
+}
+
+
 
 
 
